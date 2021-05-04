@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+
+        <h2>Produtos</h2>
+
+        <table border = "1" width = "50%"> <!-- <table> - Tag para criar uma tabela, podendo definir os tipos de atributo (witdh pode receber '%' para ocupar esse espaço na tela.). -->
+            <tr> <!-- <tr> - Table row, linha da tabela. -->
+                <th>Código</th>  <!-- <th> - Table header, cabeçalho da tabela. -->
+                <th>Produto</th>    
+                <th>Preço</th> 
+            </tr>
+
+            <tr>
+                <td>001</td> <!-- <td> - Table data, dados da tabela. -->
+                <td>Notebook</td>    
+                <td>R$ 2.500,00</td> 
+            </tr>
+            <!-- obs: Também é possível por imagens e links dentro de uma tabela. -->
+            <tr>
+                <td><a href="https://www.facebook.com/">002</a></td>
+                <td><img src="imagens/tv.webp" width="100"> </td>    
+                <td>R$ 3.500,00</td> 
+            </tr>
+
+            <tr>
+                <td>Desconto</td>
+                <td colspan="2"> cupom: R$ 10,00</td> <!-- <td colspan> - Extensão da coluna, atributo para mesclar as colunas-->
+            </tr>
+
+        </table>
+    </body>
+
+</html>
